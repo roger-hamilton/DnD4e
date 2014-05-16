@@ -8,20 +8,6 @@ using System.Threading.Tasks;
 
 namespace DnD4e_Database
 {
-    public class DnDDatabase:DbContext
-    {
-        public DbSet<CharacterClass> CharacterClasses { get; set; }
-        public DbSet<Power> Powers { get; set; }
-        public DbSet<PowerSource> PowerSources { get; set; }
-        public DbSet<Ability> Abilities { get; set; }
-        public DbSet<Defence> Defences { get; set; }
-        public DbSet<Skill> Skills { get; set; }
-        public DbSet<Feat> Feats { get; set; }
-        public DbSet<Item> Items { get; set; }
-        public DbSet<Equipment> Equipment { get; set; }
-        public DbSet<Weapon> Weapons { get; set; }
-        public DbSet<Armor> Armor { get; set; }
-    }
     public class CharacterClass
     {
         [Key]
@@ -46,9 +32,6 @@ namespace DnD4e_Database
         public Ability Ability { get; set; }
         public int Bonus { get; set; }
     }
-
-    
-
     public abstract class Stat
     {
         [Key]
@@ -112,6 +95,4 @@ namespace DnD4e_Database
         public string Name { get; set; }
         public string Description { get; set; }
     }
-
-    
 }

@@ -46,7 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CharacterModels.cs" />
+    <Compile Include="CharacterClassModels.cs" />
+    <Compile Include="DnD4eDatabaseContext.cs" />
     <Compile Include="ItemModels.cs" />
     <Compile Include="PowerModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

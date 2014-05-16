@@ -18,9 +18,12 @@ namespace DnD4e_Database
         public PowerType Type { get; set; }
         public string FlavorText { get; set; }
         public PowerSource PowerSource { get; set; }
-        public List<DamageType> DamageTypes { get; set; }
-        public List<EffectType> EffectTypes { get; set; }
-        public List<PowerAccessories> Accessories { get; set; }
+        public virtual List<DamageType> DamageTypes { get; set; }
+        public virtual List<EffectType> EffectTypes { get; set; }
+        public virtual List<PowerAccessories> Accessories { get; set; }
+        public AttackType AttackType { get; set; }
+        public string Prerequisite { get; set; }
+        public string Requirement { get; set; }
     }
     public class ActionType
     {
@@ -37,8 +40,8 @@ namespace DnD4e_Database
         public string Name { get; set; }
         public string Description { get; set; }
         public string FormatString { get; set; }
-        public int Number1 { get; set; }
-        public int Number2 { get; set; }
+        public int Range1 { get; set; }
+        public int Range2 { get; set; }
     }
     public class DamageType
     {

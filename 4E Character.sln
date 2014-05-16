@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnD4E Character", "4E Character\DnD4E Character.csproj", "{BCB5E8F9-0BCA-4066-9816-8854F198C9FE}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnD4e Database", "DnD4e Database\DnD4e Database.csproj", "{C47892D5-E949-4485-BB83-E94F65BF9C75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnD4e Web", "DnD4e Web\DnD4e Web.csproj", "{ECD2244E-0027-4A75-8D9B-C3093BA00192}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BCB5E8F9-0BCA-4066-9816-8854F198C9FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BCB5E8F9-0BCA-4066-9816-8854F198C9FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BCB5E8F9-0BCA-4066-9816-8854F198C9FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BCB5E8F9-0BCA-4066-9816-8854F198C9FE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C47892D5-E949-4485-BB83-E94F65BF9C75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C47892D5-E949-4485-BB83-E94F65BF9C75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C47892D5-E949-4485-BB83-E94F65BF9C75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C47892D5-E949-4485-BB83-E94F65BF9C75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECD2244E-0027-4A75-8D9B-C3093BA00192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECD2244E-0027-4A75-8D9B-C3093BA00192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECD2244E-0027-4A75-8D9B-C3093BA00192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECD2244E-0027-4A75-8D9B-C3093BA00192}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
